@@ -14,3 +14,75 @@ button{
 .bg-pink{
 	background-color:pink;
 }
+.dropdown-container{
+    font-size: 50px;
+    margin:50px;
+    display:flex;
+    font-weight: 700;
+    flex-direction: column;
+    gap: 50px;
+    width: 40%;
+    height:100vh;
+   
+}
+#main{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+select{
+    height: 50px;
+    width: 250px;
+    font-size: 30px;
+    outline: solid 5px rgb(129, 95, 95);
+}
+option{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    block-size: inherit;
+    font-weight: 500;
+    font-size: larger;
+    
+}
+.description-container{
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 700;
+    width:60%;
+    height: 100vh;
+}
+#state-title{
+    margin-bottom: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#city-name{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#city-title{
+    margin-bottom: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#landmark-title{
+    margin-bottom: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#landmark-name{
+    border:3px solid rgb(100, 97, 97);
+    height: 22vh;
+    margin:30px;
+}
+#city-name{
+    border:3px solid rgb(100, 97, 97);
+    height: 22vh;
+    margin:30px;
+}
+#state-name{
+    border:3px solid rgb(100, 97, 97);
+    height: 22vh;
+    margin:30px;
+}
